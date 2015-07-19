@@ -2,7 +2,7 @@
 
 apt-get --assume-yes install ntp
 /etc/init.d/ntp stop
-/user/sbin/ntpdate pool.ntp.org
+/usr/sbin/ntpdate pool.ntp.org
 
 # Then Run:
 #   dpkg-reconfigure tzdata

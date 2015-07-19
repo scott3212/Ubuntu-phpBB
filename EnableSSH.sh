@@ -23,5 +23,3 @@ TARGET_KEY=PermitRootLogin
 REPLACEMENT_VALUE=yes
 sed -i "s/\($TARGET_KEY *  *\).*/\1$REPLACEMENT_VALUE/" $CONFIG_FILE
 service ssh restart
-
-# 3, restart SSH to apply the config

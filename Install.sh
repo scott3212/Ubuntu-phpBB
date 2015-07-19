@@ -1,10 +1,16 @@
 #!/bin/bash
 
 # Pre-Cond: 
-# 1, Install Git: apt-get --assume-yes git
+# 1, Install Git: apt-get --assume-yes install git
 # 2, Git clone: git clone https://github.com/scott3212/Ubuntu-phpBB.git
 # 3, Go to cloned folder Ubuntu-phpBB: cd Ubuntu-phpBB
 # 4, Change mode: chmod 744 Install.sh
+# 5, Change Time and Date:
+# apt-get --assume-yes install ntp
+# /etc/init.d/ntp stop
+# /user/sbin/ntpdate pool.ntp.org
+# dpkg-reconfigure tzdata
+
 
 #set perameter
 GIT_HOME=`pwd`

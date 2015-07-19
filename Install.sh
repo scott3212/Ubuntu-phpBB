@@ -1,6 +1,14 @@
 #!/bin/bash
 
+
+# Pre-Cond: 
+# 1, Install Git: apt-get --assume-yes git
+# 2, Git clone: git clone https://github.com/scott3212/Ubuntu-phpBB.git
+# 3, Go to cloned folder Ubuntu-phpBB: cd Ubuntu-phpBB
+# 4, Change mode: chmod 744 Install.sh
+
 #set perameter
+GIT_HOME=`pwd`
 
 # 1, Install openssh 
 apt-get update

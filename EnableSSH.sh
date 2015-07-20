@@ -13,9 +13,9 @@
 GIT_HOME=`pwd`
 
 # 1, Install openssh 
-#apt-get update
-#apt-get --assume-yes upgrade
-#apt-get --assume-yes install openssh-server
+apt-get update
+apt-get --assume-yes upgrade
+apt-get --assume-yes install openssh-server
 
 # 2, Config openssh to allow root login
 CONFIG_FILE=/etc/ssh/sshd_config

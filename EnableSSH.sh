@@ -23,3 +23,9 @@ TARGET_KEY=PermitRootLogin
 REPLACEMENT_VALUE=yes
 sed -i "s/\($TARGET_KEY *  *\).*/\1$REPLACEMENT_VALUE/" $CONFIG_FILE
 service ssh restart
+
+# 3, Install MySQL
+apt-get --assume-yes install mysql-server
+
+# 4, Install phpBB
+apt-get --assume-yes install phpbb3

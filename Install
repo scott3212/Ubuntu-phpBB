@@ -6,7 +6,7 @@
 # 3, Go to cloned folder Ubuntu-phpBB: cd Ubuntu-phpBB
 # 4, Change TimeZone: 
 # dpkg-reconfigure tzdata
-
+#
 
 #set perameter
 GIT_HOME=`pwd`

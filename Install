@@ -4,8 +4,7 @@
 # 1, Install Git: apt-get --assume-yes install git
 # 2, Git clone: git clone https://github.com/scott3212/Ubuntu-phpBB.git
 # 3, Go to cloned folder Ubuntu-phpBB: cd Ubuntu-phpBB
-# 4, Change mode: chmod 744 *.sh
-# 5, Change Time and Date: 
+# 4, Change TimeZone: 
 # dpkg-reconfigure tzdata
 
 
